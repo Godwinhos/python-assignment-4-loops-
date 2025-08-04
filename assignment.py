@@ -64,10 +64,15 @@ for student in students:
     score = student["score"]
     if score >= 70:
         high_performers.append(record)
-        print(f"high performers{record}")
+        
     elif 50<= score <70:
         average_performers.append(record)
-        print(f"average performers{record}")
+        
     else:
         low_performers.append(record)
-        print(f"low performers{record}")
+        
+
+print(f"high performers: {len(high_performers)}")
+
+print(f"average performers: {len(average_performers)}")
+print(f"low performers: {len(low_performers)}")
