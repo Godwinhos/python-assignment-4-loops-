@@ -7,11 +7,10 @@ while num < 1001:
 
 
 i =1
-while i <=100:
+while i <=1000:
     student = {"id": f"{i}",
         "name": f"student{i}",
         "score": i % 100
     }
-    
     i +=1
     print(student)
